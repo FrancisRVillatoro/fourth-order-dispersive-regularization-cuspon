@@ -1,5 +1,7 @@
 # Fourth-Order Dispersive Regularization of a Cuspon — reproducibility package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22729500.svg)](https://doi.org/10.5281/zenodo.22729500)
+
 Reproducibility code, numerical data, and figure sources for
 
 **Francisco R. Villatoro, “Fourth-Order Dispersive Regularization of a Cuspon.”**
@@ -122,17 +124,27 @@ At `epsilon = 1e-8`, the second-order relative errors of the asymptotic formulas
 
 ## Integrity
 
-`SHA256SUMS.txt` contains SHA-256 hashes for the release files. `release_manifest.tsv` records path, size, and hash. Run
+`SHA256SUMS.txt` and `release_manifest.tsv` belong to the immutable archived `v1.0.0` snapshot. To verify that exact release after cloning the repository, check out the tag first:
 
 ```bash
+git checkout v1.0.0
 sha256sum -c SHA256SUMS.txt
 ```
 
-to verify the downloaded release tree (excluding the checksum/manifest files themselves).
+The `main` branch may contain later documentation-only commits (for example, the Zenodo DOI metadata) and is therefore not expected to match the frozen `v1.0.0` checksum file byte-for-byte.
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`. After the GitHub `v1.0.0` release is archived by Zenodo, the version DOI can be used to cite the exact reproducibility snapshot.
+The exact reproducibility snapshot associated with the SIMA submission is archived as:
+
+> Francisco R. Villatoro (2026). *Reproducibility package for Fourth-Order Dispersive Regularization of a Cuspon* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.22729500
+
+- **Version DOI (v1.0.0):** https://doi.org/10.5281/zenodo.22729500
+- **Concept DOI (all versions):** https://doi.org/10.5281/zenodo.22729499
+
+For reproducibility of the submitted article, cite the **version DOI**. The concept DOI always resolves to the latest archived release.
+
+Citation metadata are also provided in `CITATION.cff`.
 
 ## Licenses
 

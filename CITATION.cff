@@ -8,8 +8,10 @@ authors:
     orcid: "https://orcid.org/0000-0003-4314-6213"
 version: 1.0.0
 date-released: 2026-09-12
+doi: "10.5281/zenodo.22729500"
 repository-code: "https://github.com/FrancisRVillatoro/fourth-order-dispersive-regularization-cuspon"
-url: "https://github.com/FrancisRVillatoro/fourth-order-dispersive-regularization-cuspon"
+repository-artifact: "https://doi.org/10.5281/zenodo.22729500"
+url: "https://doi.org/10.5281/zenodo.22729500"
 license: MIT
 keywords:
   - cuspon

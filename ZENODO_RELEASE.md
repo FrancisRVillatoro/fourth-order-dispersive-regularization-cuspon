@@ -1,4 +1,4 @@
-# Zenodo archiving checklist for v1.0.0
+# Zenodo archive record
 
 Repository:
 
@@ -8,7 +8,18 @@ GitHub release/tag:
 
 `v1.0.0`
 
-Suggested Zenodo record title:
+Archived on Zenodo on 12 September 2026.
+
+## DOI identifiers
+
+- **Version DOI (v1.0.0):** https://doi.org/10.5281/zenodo.22729500
+- **Concept DOI (all versions):** https://doi.org/10.5281/zenodo.22729499
+
+The version DOI identifies the exact reproducibility snapshot used for the SIMA submission. The concept DOI represents all versions and resolves to the latest Zenodo release.
+
+## Record metadata
+
+Title:
 
 **Reproducibility package for Fourth-Order Dispersive Regularization of a Cuspon**
 
@@ -20,25 +31,11 @@ Creator:
 
 Version: `1.0.0`
 
-Suggested keywords:
-
-- cuspon
-- singular perturbation
-- homoclinic orbit
-- intensity-dependent dispersion
-- fourth-order dispersion
-- matched asymptotics
-- reproducibility
-
 Licensing:
 
 - software: MIT
 - data/figures/documentation: CC BY 4.0
 
-After Zenodo mints the DOI:
+## Post-archive policy
 
-1. record both the version DOI and the concept DOI;
-2. add the version DOI badge/link to the GitHub `README.md` on `main`;
-3. add the DOI to `CITATION.cff` on `main`;
-4. update the article's Data and code availability statement with the version DOI;
-5. do **not** rewrite or retag the already archived `v1.0.0` snapshot.
+The Git tag `v1.0.0` and the Zenodo snapshot are immutable. DOI metadata may be added to the `main` branch in later documentation-only commits, but the archived tag must not be rewritten or retagged.
