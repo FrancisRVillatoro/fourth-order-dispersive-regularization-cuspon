@@ -1,0 +1,14 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "solver": "scipy.integrate.solve_bvp",
+  "solver_tol": 1e-06,
+  "solver_bc_tol": 1e-10,
+  "solver_max_nodes": 60000,
+  "domain_default": 20.0,
+  "boundary_conditions": "U'(0)=U'''(0)=0 and the two linear stable-tail conditions associated with lambda_s, lambda_f at Xmax",
+  "archived_input": "regularized_bvp_results_archived.csv"
+}

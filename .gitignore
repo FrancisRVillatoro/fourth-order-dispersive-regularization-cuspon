@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+
+# Temporary numerical files
+*.tmp
+*.bak
+
+# Manuscript/editorial artifacts are intentionally excluded from this repository
+*.tex
+*.bib
+manuscript*.pdf
+paper*.pdf
+cover_letter*
+response_to_referee*

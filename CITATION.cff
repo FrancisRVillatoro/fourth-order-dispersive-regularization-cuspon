@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the archived software release and the associated article."
+title: "Reproducibility package for Fourth-Order Dispersive Regularization of a Cuspon"
+type: software
+authors:
+  - family-names: Villatoro
+    given-names: Francisco R.
+    orcid: "https://orcid.org/0000-0003-4314-6213"
+version: 1.0.0
+date-released: 2026-09-12
+repository-code: "https://github.com/FrancisRVillatoro/fourth-order-dispersive-regularization-cuspon"
+url: "https://github.com/FrancisRVillatoro/fourth-order-dispersive-regularization-cuspon"
+license: MIT
+keywords:
+  - cuspon
+  - singular perturbation
+  - homoclinic orbit
+  - intensity-dependent dispersion
+  - fourth-order dispersion
+  - matched asymptotics
+  - reproducibility

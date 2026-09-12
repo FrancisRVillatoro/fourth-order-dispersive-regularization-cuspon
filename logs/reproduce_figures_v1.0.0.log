@@ -1,0 +1,16 @@
+Solving epsilon=1e-02 ...
+  nodes=2743, max_rms=1.953e-07, U(0)=1.258842756639
+Solving epsilon=1e-04 ...
+  nodes=1747, max_rms=9.964e-07, U(0)=1.050982454392
+Solving epsilon=1e-06 ...
+  nodes=2355, max_rms=9.811e-07, U(0)=1.010534781318
+Solving epsilon=1e-08 ...
+  nodes=7206, max_rms=9.971e-07, U(0)=1.002244413391
+Generated:
+  /mnt/data/fourth-order-dispersive-regularization-cuspon/figures/regularized_bvp_profiles.png
+  /mnt/data/fourth-order-dispersive-regularization-cuspon/figures/regularized_bvp_profiles.pdf
+  /mnt/data/fourth-order-dispersive-regularization-cuspon/figures/cuspon_phase_portrait.png
+  /mnt/data/fourth-order-dispersive-regularization-cuspon/figures/cuspon_phase_portrait.pdf
+  /mnt/data/fourth-order-dispersive-regularization-cuspon/results/regularized_bvp_profiles_data.csv
+  /mnt/data/fourth-order-dispersive-regularization-cuspon/results/cuspon_phase_regularized_data.csv
+  /mnt/data/fourth-order-dispersive-regularization-cuspon/results/cuspon_phase_singular_data.csv
